@@ -7,5 +7,6 @@ class activityCardPage {
             .contains(centro)
             .click();
     }
+    
 }
 export default new activityCardPage();                  

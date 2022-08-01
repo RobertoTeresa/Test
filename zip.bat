@@ -9,10 +9,10 @@ set data=%d%
 
 Echo zipping...
 
-del /q C:\githubcypress\qa-educaixa\allure-results\*.mp4
+del /q C:\ProgramData\Jenkins\.jenkins\workspace\Educaixa\allure-results\*.mp4
 
-"C:\Program Files\7-Zip\7z.exe" a -tzip "C:\Users\rteresa\Desktop\educaixareports%datefix%.zip" "C:\githubcypress\qa-educaixa\allure-results"
+"C:\Program Files\7-Zip\7z.exe" a -tzip "C:\Users\rteresa\Desktop\educaixareports%datefix%.zip" "C:\ProgramData\Jenkins\.jenkins\workspace\Educaixa\allure-results"
 
-SwithMail.exe /s /x "C:\githubcypress\qa-educaixa\SwithMailSettings.xml" /Attachment "C:\Users\rteresa\Desktop\educaixareports%datefix%.zip"
+SwithMail.exe /s /x "C:\ProgramData\Jenkins\.jenkins\workspace\Educaixa\SwithMailSettings.xml" /Attachment "C:\Users\rteresa\Desktop\educaixareports%datefix%.zip"
 
 echo Done!
