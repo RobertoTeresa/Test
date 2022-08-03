@@ -1,5 +1,4 @@
 @parentSuite("EduCaixa")
-@suite("Actividad_suite")
 Feature: Actividades Caixa
 
   @actividades
@@ -198,15 +197,15 @@ Feature: Actividades Caixa
       | CosmoCaixa Barcelona | Planetario Burbuja |
 
   @actividades
-  Scenario Outline: Ficha de Actividad - Sesiones disponibles de la actividad 
+  Scenario Outline: Ficha de Actividad - Sesiones disponibles de la actividad
     When Entro en la pagina de actividades de la caixa
     And Selecciono el centro de actividades '<centroactividades>' y selecciona la actividad '<actividad>'
     And Selecciono el centro correspondiente '<centroactividades>' dentro de la actividad
     Then Se deberian mostrar las sesiones disponibles
 
     Examples:
-      | centroactividades    | actividad       | 
-      | CaixaForum Barcelona | Manos a la obra | 
+      | centroactividades    | actividad       |
+      | CaixaForum Barcelona | Manos a la obra |
 
 
   @smoke  @actividades
@@ -484,7 +483,6 @@ Feature: Actividades Caixa
       | centroactividades    | actividad          | email                  | password | urlplanificador                     |
       | CosmoCaixa Barcelona | Planetario Burbuja | robertomoja2@gmail.com | Abc123   | /es/planificador/elegir-actividades |
 
-  @suite("Ficha_actividad")
   @fichaactividad
   Scenario Outline: Ficha actividad - Descripción de la actividad
     When Entro en la pagina de actividades de la caixa
@@ -638,7 +636,6 @@ Feature: Actividades Caixa
       | actividad       | email                  | password |
       | Manos a la obra | robertomoja2@gmail.com | Abc123   |
 
-  @suite("Menu_inferior")
   @menuinferior
   Scenario Outline: Menú inferior - ¿Qué es EduCaixa?
     When Entro en la pagina de actividades de la caixa
@@ -696,7 +693,6 @@ Feature: Actividades Caixa
       | actividad       | pagina                                                      | email                  | password |
       | Manos a la obra | https://pre.educaixa.org/es/web/guest/contacta-con-nosotros | robertomoja2@gmail.com | Abc123   |
 
-  @suite("Actividad_itinerante")
   @actividaditinerante
   Scenario Outline: Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información)
     When Entro en la pagina de actividades de la caixa
