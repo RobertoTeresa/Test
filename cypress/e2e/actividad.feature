@@ -2,10 +2,8 @@
 @suite("Actividad_suite")
 Feature: Actividades Caixa
 
-  @feature("actividades")
-
   @actividades
-  Scenario: Acceso a dominio entorno con acceso público para un usuario anónimo
+  Scenario: Acceso a dominio  con acceso público para un usuario anónimo
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
 
@@ -486,8 +484,7 @@ Feature: Actividades Caixa
       | centroactividades    | actividad          | email                  | password | urlplanificador                     |
       | CosmoCaixa Barcelona | Planetario Burbuja | robertomoja2@gmail.com | Abc123   | /es/planificador/elegir-actividades |
 
-  @feature("fichaactividad")
-
+  @suite("Ficha_actividad")
   @fichaactividad
   Scenario Outline: Ficha actividad - Descripción de la actividad
     When Entro en la pagina de actividades de la caixa
@@ -641,8 +638,7 @@ Feature: Actividades Caixa
       | actividad       | email                  | password |
       | Manos a la obra | robertomoja2@gmail.com | Abc123   |
 
-  @feature("menuinferior")
-
+  @suite("Menu_inferior")
   @menuinferior
   Scenario Outline: Menú inferior - ¿Qué es EduCaixa?
     When Entro en la pagina de actividades de la caixa
@@ -700,9 +696,7 @@ Feature: Actividades Caixa
       | actividad       | pagina                                                      | email                  | password |
       | Manos a la obra | https://pre.educaixa.org/es/web/guest/contacta-con-nosotros | robertomoja2@gmail.com | Abc123   |
 
-
-  @feature("actividaditinerante")
-
+  @suite("Actividad_itinerante")
   @actividaditinerante
   Scenario Outline: Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información)
     When Entro en la pagina de actividades de la caixa
