@@ -39,7 +39,7 @@ module.exports = defineConfig({
     supportFile: false,
     numTestsKeptInMemory: 3,
     setupNodeEvents,
-    pageLoadTimeout:200000,
+    pageLoadTimeout:300000,
     video:false
     },
 });
