@@ -3,6 +3,8 @@ const webpack = require("@cypress/webpack-preprocessor");
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const allureWriter = require('@shelex/cypress-allure-plugin/writer');
 
+
+
 async function setupNodeEvents(on, config) {
   await preprocessor.addCucumberPreprocessorPlugin(on, config);
   on(
@@ -41,6 +43,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     pageLoadTimeout:300000,
     video:false
+    
     },
 });
 

@@ -21,7 +21,7 @@ class activityPage {
   }
 
   centerFilter(centro, activityName) {
-    activityWebElements.ActivityFilterButton.click();
+    //activityWebElements.ActivityFilterButton.click();
     activityWebElements.ActivityFilterListCenter
       .contains(centro)
       .invoke('index')
