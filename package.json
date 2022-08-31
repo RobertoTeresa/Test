@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Caixa cypress",
   "main": "cypress.config.js",
+  "json": {
+    "enabled": true,
+    "formatter":"./cucumber-json-formatter.exe"
+  },
+  "html": {
+    "enabled": true
+  },
   "scripts": {
     "test": "cypress open",
     "qa": "npx cypress run -e TAGS='@a' --env allure=true"

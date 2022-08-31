@@ -2,6 +2,8 @@
 Feature: Actividades Caixa
 
   @actividades
+  @tms("tms","TEST-4")
+  @issue("jira","TEST-4")
   Scenario: Acceso a dominio  con acceso público para un usuario anónimo
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
