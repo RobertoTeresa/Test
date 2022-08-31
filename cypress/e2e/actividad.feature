@@ -2,8 +2,8 @@
 Feature: Actividades Caixa
 
   @actividades
-  @tms("TEST-4")
-  @issue("TEST-4")
+  @tms("PRB-1")
+  @issue("PRB-1")
   Scenario: Acceso a dominio  con acceso público para un usuario anónimo
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
