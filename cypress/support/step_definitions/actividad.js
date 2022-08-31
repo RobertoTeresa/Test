@@ -12,9 +12,10 @@ const { When, Then, And } = require("@badeball/cypress-cucumber-preprocessor");
 var titleactivity;
 var documentUrl;
 
-cy.allure().tms("PRB-1");
-cy.allure().issue("PRB-1");
+
 When("Entro en la pagina de actividades de la caixa", () => {
+  cy.allure().tms("PRB-1");
+  cy.allure().issue("PRB-1");
   activityPage.visitPageActivity();
   homePage.acceptCookies();
 });
