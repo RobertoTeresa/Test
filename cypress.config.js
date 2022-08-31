@@ -39,9 +39,7 @@ module.exports = defineConfig({
     numTestsKeptInMemory: 3,
     setupNodeEvents,
     pageLoadTimeout: 300000,
-    video: true,
-    JSON:true,
-    reporter: 'junit'
+    video: false,
   },
 });
 

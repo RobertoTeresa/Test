@@ -1,6 +1,7 @@
 @parentSuite("EduCaixa")
 Feature: Actividades Caixa
 
+  @a
   @actividades
   @tms("PRB-1")
   @issue("PRB-1")
@@ -8,6 +9,7 @@ Feature: Actividades Caixa
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
 
+  @b
   @actividades
   Scenario Outline: Ir al menú superior "Actividades"
     When Entro en la pagina de la caixa
