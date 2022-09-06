@@ -40,6 +40,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     pageLoadTimeout: 300000,
     video: false,
+    reporter: 'junit'
   },
 });
 

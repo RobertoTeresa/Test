@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="803.8550" tests="70" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-09-02T11:37:58" tests="0" file="cypress\e2e\actividad.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Actividades Caixa" timestamp="2022-09-02T11:37:58" tests="70" time="803.8550" failures="2">
+    <testcase name="Actividades Caixa Acceso a dominio  con acceso público para un usuario anónimo" time="11.3100" classname="Acceso a dominio  con acceso público para un usuario anónimo">
+    </testcase>
+    <testcase name="Actividades Caixa Ir al menú superior &quot;Actividades&quot; (example #1)" time="12.5180" classname="Ir al menú superior &quot;Actividades&quot; (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Seleccionar una actividad (example #1)" time="9.3390" classname="Seleccionar una actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra título de la actividad (example #1)" time="9.1180" classname="Card Ficha Actividad se muestra título de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra subtítulo de la actividad (example #1)" time="5.6950" classname="Card Ficha Actividad se muestra subtítulo de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra precio actividad de forma dinámica (example #1)" time="11.0680" classname="Card Ficha Actividad se muestra precio actividad de forma dinámica (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad - Se muestra  de forma dinámica el texto &quot;para poder acceder a la actividad es necesario adquirir la entrada al museo&quot; - Para cosmoCaixa (example #1)" time="13.1360" classname="Card Ficha Actividad - Se muestra  de forma dinámica el texto &quot;para poder acceder a la actividad es necesario adquirir la entrada al museo&quot; - Para cosmoCaixa (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad Se muestra promociones de forma dinámica. (example #1)" time="10.8440" classname="Card Ficha Actividad Se muestra promociones de forma dinámica. (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el aforo (example #1)" time="5.4930" classname="Card Ficha Actividad se muestra el aforo (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra la duración de la actividad (example #1)" time="7.2790" classname="Card Ficha Actividad se muestra la duración de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra la valoración de la actividad (example #1)" time="5.8040" classname="Card Ficha Actividad se muestra la valoración de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el boton compartir (example #1)" time="5.2900" classname="Card Ficha Actividad se muestra el boton compartir (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el boton guardar actividad (example #1)" time="8.5470" classname="Card Ficha Actividad se muestra el boton guardar actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el nivel educativo para poder realizar la actividad (example #1)" time="5.6480" classname="Card Ficha Actividad se muestra el nivel educativo para poder realizar la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el área de conocimiento (example #1)" time="9.8390" classname="Card Ficha Actividad se muestra el área de conocimiento (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestran las competencias de la actividad (example #1)" time="5.7130" classname="Card Ficha Actividad se muestran las competencias de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Selector de centro usuario anónimo (example #1)" time="14.1720" classname="Ficha de Actividad - Selector de centro usuario anónimo (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (example #1)" time="8.1350" classname="Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Botón Reserva (example #1)" time="9.1500" classname="Ficha de Actividad - Botón Reserva (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Sesiones disponibles de la actividad (example #1)" time="10.1280" classname="Ficha de Actividad - Sesiones disponibles de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Selector de centro usuario logeado (example #1)" time="16.4500" classname="Ficha de Actividad - Selector de centro usuario logeado (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Selector de actividad que no existe en el centro preferente (example #1)" time="12.7520" classname="Ficha de Actividad - Selector de actividad que no existe en el centro preferente (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Selector de actividad que existe en el centro preferente (example #1)" time="12.9510" classname="Ficha de Actividad - Selector de actividad que existe en el centro preferente (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (no tengo centro de preferencia en mi perfil) (example #1)" time="33.0860" classname="Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (no tengo centro de preferencia en mi perfil) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (tengo centro de preferencia en mi perfil) (example #1)" time="28.2600" classname="Ficha de Actividad- Check &quot;Selecciona para establecer centro de preferencia&quot; (tengo centro de preferencia en mi perfil) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Sesiones disponibles de la actividad (usuario logeado) (example #1)" time="17.1270" classname="Ficha de Actividad - Sesiones disponibles de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ir al menú superior &quot;Actividades&quot; (usuario logeado) (example #1)" time="27.8060" classname="Ir al menú superior &quot;Actividades&quot; (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Seleccionar una actividad (usuario logeado) (example #1)" time="18.7590" classname="Seleccionar una actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra título de la actividad (usuario logeado) (example #1)" time="10.5000" classname="Card Ficha Actividad se muestra título de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra subtítulo de la actividad (usuario logeado) (example #1)" time="16.5370" classname="Card Ficha Actividad se muestra subtítulo de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra precio actividad de forma dinámica (usuario logeado) (example #1)" time="14.4950" classname="Card Ficha Actividad se muestra precio actividad de forma dinámica (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad - Se muestra  de forma dinámica el texto &quot;para poder acceder a la actividad es necesario adquirir la entrada al museo&quot; - Para cosmoCaixa (example #1)" time="15.0630" classname="Card Ficha Actividad - Se muestra  de forma dinámica el texto &quot;para poder acceder a la actividad es necesario adquirir la entrada al museo&quot; - Para cosmoCaixa (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad Se muestra promociones de forma dinámica (usuario logeado) (example #1)" time="15.4890" classname="Card Ficha Actividad Se muestra promociones de forma dinámica (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el aforo (usuario logeado) (example #1)" time="12.2280" classname="Card Ficha Actividad se muestra el aforo (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra la duración de la actividad (usuario logeado) (example #1)" time="11.2700" classname="Card Ficha Actividad se muestra la duración de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra la valoración de la actividad (usuario logeado) (example #1)" time="11.2380" classname="Card Ficha Actividad se muestra la valoración de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el boton compartir (usuario logeado) (example #1)" time="10.0100" classname="Card Ficha Actividad se muestra el boton compartir (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el boton guardar actividad (usuario logeado) (example #1)" time="0.0000" classname="Card Ficha Actividad se muestra el boton guardar actividad (usuario logeado) (example #1)">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`&lt;div class=&quot;menu_element&quot; id=&quot;user&quot;&gt;...&lt;/div&gt;`
+
+is being covered by another element:
+
+`&lt;div class=&quot;overlay-educaixa&quot;&gt;&lt;/div&gt;`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+
+`<div class="menu_element" id="user">...</div>`
+
+is being covered by another element:
+
+`<div class="overlay-educaixa"></div>`
+
+Fix this problem, or use {force: true} to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:162005:78)
+    at ensureDescendents (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:147397:8)
+    at ensureDescendentsAndScroll (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:147404:14)
+    at ensureElIsNotCovered (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:147536:5)
+    at runAllChecks (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:147726:52)
+    at retryActionability (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:147750:16)
+    at tryCatcher (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise.attempt.Promise.try (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:166931:65)
+    at https://pre.educaixa.org/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://pre.educaixa.org/__cypress/runner/cypress_runner.js:11073:18)
+    at https://pre.educaixa.org/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at Context.eval (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:147:82)
+    at Registry.runStepDefininition (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:1719:46)
+    at Context.eval (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:1227:49)]]></failure>
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el nivel educativo para poder realizar la actividad (usuario logeado) (example #1)" time="12.7350" classname="Card Ficha Actividad se muestra el nivel educativo para poder realizar la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestra el área de conocimiento (usuario logeado) (example #1)" time="11.4830" classname="Card Ficha Actividad se muestra el área de conocimiento (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Card Ficha Actividad se muestran las competencias de la actividad (usuario logeado) (example #1)" time="10.9400" classname="Card Ficha Actividad se muestran las competencias de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Boton atras (example #1)" time="17.2030" classname="Boton atras (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de Actividad - Botón Reserva (usuario logeado) (example #1)" time="16.8050" classname="Ficha de Actividad - Botón Reserva (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha actividad - Descripción de la actividad (example #1)" time="5.3680" classname="Ficha actividad - Descripción de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha actividad - Objetivios de la actividad (example #1)" time="5.6390" classname="Ficha actividad - Objetivios de la actividad (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Materiales y descargas (example #1)" time="4.6890" classname="Ficha de actividad - Materiales y descargas (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Abrir material (example #1)" time="5.4520" classname="Ficha de actividad - Abrir material (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Información Actividad (example #1)" time="0.0000" classname="Ficha de actividad - Información Actividad (example #1)">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#onetrust-accept-btn-handler`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#onetrust-accept-btn-handler`, but never found it.
+    at homePage.acceptCookies (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:581:86)
+    at Context.eval (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:42:64)
+    at Registry.runStepDefininition (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:1719:46)
+    at Context.eval (https://pre.educaixa.org/__cypress/tests?p=cypress\e2e\actividad.feature:1227:49)]]></failure>
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Valoración (example #1)" time="5.4700" classname="Ficha de actividad - Valoración (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - boton &quot;Valora y Comenta&quot; (example #1)" time="7.8710" classname="Ficha de actividad - boton &quot;Valora y Comenta&quot; (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha actividad - Descripción de la actividad (usuario logeado) (example #1)" time="12.0300" classname="Ficha actividad - Descripción de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha actividad - Objetivios de la actividad (usuario logeado) (example #1)" time="17.0830" classname="Ficha actividad - Objetivios de la actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Materiales y descargas (usuario logeado) (example #1)" time="11.1610" classname="Ficha de actividad - Materiales y descargas (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Abrir material (usuario logeado) (example #1)" time="13.0210" classname="Ficha de actividad - Abrir material (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Información Actividad (usuario logeado) (example #1)" time="27.9440" classname="Ficha de actividad - Información Actividad (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - Valoración (usuario logeado) (example #1)" time="14.4620" classname="Ficha de actividad - Valoración (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Ficha de actividad - boton &quot;Valora y Comenta&quot; (usuario logeado) (example #1)" time="11.8910" classname="Ficha de actividad - boton &quot;Valora y Comenta&quot; (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Menú inferior - ¿Qué es EduCaixa? (example #1)" time="7.2800" classname="Menú inferior - ¿Qué es EduCaixa? (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Menú inferior - Experiencias (example #1)" time="7.7060" classname="Menú inferior - Experiencias (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Menú inferior -  Nuestros centros (example #1)" time="9.3720" classname="Menú inferior -  Nuestros centros (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Menú inferior - Contacto (example #1)" time="6.4390" classname="Menú inferior - Contacto (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Menú inferior - Contacto (usuario logeado) (example #1)" time="14.3130" classname="Menú inferior - Contacto (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información) (example #1)" time="5.8240" classname="Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Seleccionar centro itinerante (boton de Reserva) (example #1)" time="5.9840" classname="Actividad Itinerante - Seleccionar centro itinerante (boton de Reserva) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Pulsar link &quot;Más información&quot; (example #1)" time="6.8910" classname="Actividad Itinerante - Pulsar link &quot;Más información&quot; (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Pulsar botón &quot;Reservar&quot; (example #1)" time="9.9340" classname="Actividad Itinerante - Pulsar botón &quot;Reservar&quot; (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información) (usuario logeado) (example #1)" time="14.3410" classname="Actividad Itinerante - Seleccionar centro itinerante (enlace de Mas información) (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Seleccionar centro itinerante (boton de Reserva) (usuario logeado) (example #1)" time="11.4070" classname="Actividad Itinerante - Seleccionar centro itinerante (boton de Reserva) (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Pulsar link &quot;Más información&quot; (usuario logeado) (example #1)" time="12.4340" classname="Actividad Itinerante - Pulsar link &quot;Más información&quot; (usuario logeado) (example #1)">
+    </testcase>
+    <testcase name="Actividades Caixa Actividad Itinerante - Pulsar botón &quot;Reservar&quot; (usuario logeado) (example #1)" time="18.4360" classname="Actividad Itinerante - Pulsar botón &quot;Reservar&quot; (usuario logeado) (example #1)">
+    </testcase>
+  </testsuite>
+</testsuites>

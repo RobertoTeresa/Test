@@ -14,8 +14,6 @@ var documentUrl;
 
 
 When("Entro en la pagina de actividades de la caixa", () => {
-  const Allure= Cypress.Allure.reporter.getInterface();
-  Allure.tms("PRB-1");
   activityPage.visitPageActivity();
   homePage.acceptCookies();
 });

@@ -1,15 +1,13 @@
 @parentSuite("EduCaixa")
 Feature: Actividades Caixa
 
-  @a
+  @educaixatest1
   @actividades
-  @tms("PRB-1")
-  @issue("PRB-1")
   Scenario: Acceso a dominio  con acceso público para un usuario anónimo
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
 
-  @b
+  @educaixatest2
   @actividades
   Scenario Outline: Ir al menú superior "Actividades"
     When Entro en la pagina de la caixa
