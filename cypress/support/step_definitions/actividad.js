@@ -1,12 +1,12 @@
-import activityPage from "../utils/actividad/activityPage";
-import activityWebElements from "../utils/actividad/activityWebElements";
-import activityCardPage from "../utils/actividadCard/activityCardPage";
-import activityCardWebElements from "../utils/actividadCard/activityCardWebElements";
-import activityRoamingCardWebElements from "../utils/actividadCard/activityRoamingCardWebElements";
-import homePage from "../utils/home/homePage";
-import homeWebElements from "../utils/home/homeWebElements";
-import userProfilePage from "../utils/userProfile/userProfilePage";
-import userProfileWebElements from "../utils/userProfile/userProfileWebElements";
+import activityPage from "../pages/actividad/activityPage";
+import activityWebElements from "../pages/actividad/activityWebElements";
+import activityCardPage from "../pages/actividadCard/activityCardPage";
+import activityCardWebElements from "../pages/actividadCard/activityCardWebElements";
+import activityRoamingCardWebElements from "../pages/actividadCard/activityRoamingCardWebElements";
+import homePage from "../pages/home/homePage";
+import homeWebElements from "../pages/home/homeWebElements";
+import userProfilePage from "../pages/userProfile/userProfilePage";
+import userProfileWebElements from "../pages/userProfile/userProfileWebElements";
 import '@shelex/cypress-allure-plugin';
 const { When, Then, And } = require("@badeball/cypress-cucumber-preprocessor");
 var titleactivity;
@@ -17,6 +17,21 @@ When("Entro en la pagina de actividades de la caixa", () => {
   activityPage.visitPageActivity();
   homePage.acceptCookies();
 });
+
+When("Entro en la pagina de actividades de produccion de la caixa", () => {
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    console.log("err :" + err);
+    console.log("runnable :" + runnable);
+    return false;
+  })
+  cy.visit("https://www.educaixa.org/es/home")
+  homePage.acceptCookies();
+});
+
+Then("Soy dirigido a la pagina de produccion", () => {
+  cy.url().should('eq', "https://www.educaixa.org/es/home")
+});
+
 
 Then("Veo el filtro de actividades", () => {
   activityWebElements.ActivityFilter.should('be.visible').should('not.to.match', ':empty');

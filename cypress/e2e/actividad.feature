@@ -1,11 +1,17 @@
 @parentSuite("EduCaixa")
 Feature: Actividades Caixa
 
-  @educaixatest1
+  @educaixademo
   @actividades
-  Scenario: Acceso a dominio  con acceso público para un usuario anónimo
+  Scenario: Acceso a dominio  con acceso público para un usuario anónimo (Pre-Produccion)
     When Entro en la pagina de actividades de la caixa
     Then Veo el filtro de actividades
+
+  @educaixademo
+  @actividades
+  Scenario: Acceso a dominio  con acceso público para un usuario anónimo (Produccion)
+    When Entro en la pagina de actividades de produccion de la caixa
+    Then Soy dirigido a la pagina de produccion
 
   @educaixatest2
   @actividades

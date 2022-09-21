@@ -5,7 +5,7 @@
   "main": "cypress.config.js",
   "json": {
     "enabled": true,
-    "formatter":"./cucumber-json-formatter.exe"
+    "formatter": "./cucumber-json-formatter.exe"
   },
   "html": {
     "enabled": true
@@ -31,6 +31,10 @@
     "mocha-allure-reporter": "^1.4.0"
   },
   "dependencies": {
-    "cypress-tags": "^0.3.0"
+    "axios": "^0.27.2",
+    "cypress-tags": "^0.3.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "node-fetch": "^2.6.7"
   }
 }

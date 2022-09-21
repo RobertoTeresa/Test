@@ -1,0 +1,17 @@
+{
+    "fields": {
+        "project": {
+            "key": "QM"
+        },
+        "issuetype": {
+            "name": "Test Execution"
+        },
+        "summary": "Prueba de Test execution",
+        "customfield_10501": {
+            "value": "INTERNO (AOI)"
+        },
+          "customfield_11200": {
+            "value": "INTERNO - Estructura TIMS [2021-15425]"
+        }
+    }
+}
