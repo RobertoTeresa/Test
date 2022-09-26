@@ -1,17 +1,19 @@
-name: sonarqube-check
-on:
-	push:
-	branches:
-		- develop
+on: push
+name: Main Workflow
 jobs:
-	sonarqube-check:
-	name: sonarqube-check
-	runs-on: ubuntu-latest
-	steps:
-		- uses: actions/checkout@v2
-		with:
-			fetch-depth: 0
-		- uses: sonarsource/sonarqube-scan-action@master
-		env:
-			SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-			SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+  build:
+    name: Build, Test and Analyze
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.19'
+      - name: Clone Repository
+        uses: actions/checkout@master
+      - name: Analyze with SonarCloud
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
