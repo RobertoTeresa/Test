@@ -11,7 +11,7 @@ Feature: Actividades Caixa
   @actividades
   Scenario: Acceso a dominio  con acceso público para un usuario anónimo (Produccion)
     When Entro en la pagina de actividades de produccion de la caixa
-    Then Soy dirigido a la pagina de produccio
+    Then Soy dirigido a la pagina de produccion
 
   @educaixatest2
   @actividades
